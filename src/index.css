@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+    font-family: 'Rubik', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*{
+  font-family: 'Rubik', sans-serif !important;
+}
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+.track-event-tab{
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
+  border-bottom: 4px solid #13D9EE;
+}
+.checklist-tab{
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
+  border-bottom: 4px solid #18DB6B;
+}
+.profile-heading {
+  text-decoration: underline;
+  text-decoration-color: #18DB6B;
+  text-decoration-thickness: 5px;
+}
+
+.profile-crews{
+  text-decoration: underline;
+  text-decoration-color: #7F0CE5;
+  text-decoration-thickness: 5px;
+}
+
+.profile-vehicle{
+  text-decoration: underline;
+  text-decoration-color: #7F0CE5;
+  text-decoration-thickness: 5px;
+}
+
+.profile-achievements{
+  text-decoration: underline;
+  text-decoration-color: #18DB6B;
+  text-decoration-thickness: 5px;
+}
+
+.profile-event{
+  text-decoration: underline;
+  text-decoration-color: #13D9EE;
+  text-decoration-thickness: 5px;
+}
+
+.profile-text {
+  margin-left: 50px !important;
+}
+.ml-0{
+  margin-left: 0 !important;
+}
+.pl-2{
+  padding-left: 10px;
+}
+.lavel-text{
+  font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+font-family: 'Rubik', sans-serif !important;
+}
+p.sm-text{
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+letter-spacing: 0.12em;
+text-transform: uppercase;
+font-family: 'Rubik', sans-serif !important;
+}
+h6.text-18{
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  font-family: 'Rubik', sans-serif !important;
+  margin: 0;
+}
+p.text-10{
+font-weight: 300;
+font-size: 10px;
+line-height: 12px;
+display: flex;
+align-items: center;
+letter-spacing: 0.12em;
+text-transform: uppercase;
+}
+.button-profile-tab-show {
+  color: white;
+  /* padding: 10px; */
+  font-weight: 800;
+  font-size: 15px;
+  border-radius: 3px;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-family: 'Rubik', sans-serif !important;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 85px;
+}
+.svg-icon svg {
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 50%;
+  height: 52px;
+  width: 52px;
+  margin-right: 10px;
+}
+.td-none{
+  text-decoration: none;
+}
+.main-flex {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.main-flex .td-none{
+  margin-top: auto;
+}
+#loader {
+  border: 12px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 12px solid #444444;
+  width: 70px;
+  height: 70px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+.center {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.search-guest .guestserch-close {
+  position: relative;
+  left: -37px;
+}
+.drawer-signin .drawer-signup {
+  padding: 0 !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+.profile-tab h6 {
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+.profile-tab p {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
